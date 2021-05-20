@@ -1,9 +1,14 @@
-import './App.css';
+import Header from './components/Header';
+import Homepage from './components/Pages/Homepage';
+import './default.scss';
 
 function App() {
   return (
     <div className="App">
-      <h1>LvL Up</h1>
+      <Header/>
+    <div className="main">
+      <Homepage/>
+    </div>
     </div>
   );
 }
