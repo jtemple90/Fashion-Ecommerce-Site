@@ -2,20 +2,45 @@
     height: 6.5rem;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
     .wrap {
+        position: relative;
+        height: 100%;
         max-width: 1450px;
         margin: 0 auto;
         .logo {
             width: 13.0rem;
             position: absolute;
-            left: 5%;
-            top: 3.9%;
+            left: 20px;
+            top: 50%;
             -webkit-transform: translateY(-50%);
             -moz-transform: translateY(-50%);
             transform: translateY(-50%);
             img {
-                height: 60px;
-                width: 150px;
+                display: block;
+                width: 100%;
                 margin: 0;
+            }
+        }
+        .nav-links {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            ul,
+            li {
+                margin: 0;
+                padding: 0;
+            }
+            li {
+                list-style-type: none;
+            }
+            a {
+                font-size: 1.8rem;
+                line-height: 1;
+                color: black;
+                text-decoration: none;
+                text-transform: uppercase;
             }
         }
     }

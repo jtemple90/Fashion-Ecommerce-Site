@@ -1,5 +1,5 @@
 import React from 'react'
-import Footwear from '../../assets/Footwear.jpg'
+import Clearance from '../../assets/Clearance1.jpg'
 import Clothing from '../../assets/Clothing.jpg'
 import './styles.scss'
 
@@ -18,10 +18,10 @@ const Directory = () => {
         <div 
           className='item'
           style={{
-            backgroundImage: `url(${Footwear})`
+            backgroundImage: `url(${Clearance})`
           }}
         >
-          <a href='/'>Shop FootWear</a>
+          <a href='/'>Shop Clearance</a>
         </div>
       </div>
     </div>
